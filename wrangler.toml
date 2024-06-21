@@ -1,0 +1,13 @@
+name = "clouldflare-lark-bot"
+compatibility_date = "2023-12-01"
+routes = [
+	{ pattern = "lark-bot.awsl.uk", custom_domain = true },
+]
+
+[vars]
+AWSL_API_URL = "https://awsl.api.awsl.icu"
+MOYU_URL = "https://moyu.awsl.icu/api/moyu"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "2d4fadea46ae490ca75d79f413548706"
